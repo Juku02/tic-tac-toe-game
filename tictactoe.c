@@ -2,8 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define MAX 4096
-
 //Game matrix structur 
 struct matrix
 {
