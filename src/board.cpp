@@ -1,4 +1,9 @@
-#include "board.hpp"
+#include "../include/board.hpp"
+
+
+Board::Board ()  
+{   
+}
 
 void Board::initBoard()
 {

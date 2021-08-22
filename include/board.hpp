@@ -12,6 +12,7 @@ private:
     std::vector<std::vector<char>> board;
     
 public:
+        Board();
         void initBoard();
         void drawBoard();
         char check();
