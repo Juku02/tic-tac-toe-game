@@ -9,7 +9,10 @@ extern "C"{
 class Board
 {
 private:
-    std::vector<std::vector<char>> board;
+    // std::vector<std::vector<char>> board;
+    // std::vector<char> row;
+    char board[3][3];
+    int i,j;
     
 public:
         Board();
